@@ -18,18 +18,19 @@ body {
     padding: 20px; /* Add padding around the container */
 }
 
+/* Styling for the main heading */
 h1 {
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 36px;
-    font-weight: bold; 
-    text-transform: uppercase; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-    letter-spacing: 2px; 
-    text-decoration: underline; 
-    background-color: #f0f0f0; 
-    padding: 10px 20px;
-    border: 2px solid #333; 
+    color: black; /* Set text color */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Set font family */
+    font-size: 36px; /* Set font size */
+    font-weight: bold;  /* Set font weight to bold */
+    text-transform: uppercase;  /* Convert text to uppercase */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for effect */
+    letter-spacing: 2px; /* Add spacing between letters */
+    text-decoration: underline; /* Underline the text */
+    background-color: #f0f0f0; /* Set background color */
+    padding: 10px 20px; /* Add padding around the text */
+    border: 2px solid #333; /* Add border around the text */
 }
 
 #cocktailInfo {
