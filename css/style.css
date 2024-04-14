@@ -9,12 +9,13 @@ body {
 
 
 
+/* Styking for the main containr */
 
 .container {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
+    max-width: 600px; /* Set maximum width for the container */
+    margin: 0 auto;  /* Center the container horizontally */
+    text-align: center; /* Centre align text within the container */
+    padding: 20px; /* Add padding around the container */
 }
 
 h1 {
