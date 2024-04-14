@@ -19,8 +19,9 @@ function fetchCocktail(){
 // Function to display a cocktail 
 function displayCocktail(cocktail){
     const cocktailInfo = document.getElementById('cocktailInfo');
+    
     // Display the cocktail information in the HTML
-    // Display the cocktail information in the HTML
+  
     cocktailInfo.innerHTML = `
         <h2>${cocktail.strDrink}</h2>
         <img src="${cocktail.strDrinkThumb}" alt="${cocktail.strDrink}">

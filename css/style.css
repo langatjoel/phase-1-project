@@ -1,9 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('/css/_\ \(2\).jpeg');
+    font-family: Arial, sans-serif; /* Set the font family for text */
+    background-image: url('/css/_\ \(2\).jpeg'); /* Ser background image */
     background-size: cover; /* Change to cover to fill the background */
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
 
 }
 
@@ -20,25 +20,23 @@ body {
 h1 {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 36px; /* Increase font size */
-    font-weight: bold; /* Make font bold */
-    text-transform: uppercase; /* Convert text to uppercase */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow effect */
-    letter-spacing: 2px; /* Increase letter spacing */
-    text-decoration: underline; /* Add underline */
-    background-color: #f0f0f0; /* Add background color */
-    padding: 10px 20px; /* Add padding */
-    border: 2px solid #333; /* Add border */
-    border-radius: 10px; /* Add border radius */
+    font-size: 36px;
+    font-weight: bold; 
+    text-transform: uppercase; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    letter-spacing: 2px; 
+    text-decoration: underline; 
+    background-color: #f0f0f0; 
+    padding: 10px 20px;
+    border: 2px solid #333; 
 }
 
 #cocktailInfo {
     margin-top: 20px;
-    font-size: 24px; /* Adjust the font size to make it bigger */
-    font-family: 'Helvetica', sans-serif; /* Apply a stylish font family */
-    font-style: italic; /* Make the font italic */
-    color:black; /* Set font color */
-    text-align: center; /* Center align the text */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+    font-size: 24px;
+    font-family: 'Helvetica', sans-serif; 
+    font-style: italic; 
+    color:black; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
-
