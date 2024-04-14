@@ -33,12 +33,13 @@ h1 {
     border: 2px solid #333; /* Add border around the text */
 }
 
+/* Styling for the cocktail information */
 #cocktailInfo {
-    margin-top: 20px;
-    font-size: 24px;
-    font-family: 'Helvetica', sans-serif; 
-    font-style: italic; 
-    color:black; 
-    text-align: center; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin-top: 20px; /* Add top margin */
+    font-size: 24px; /* Set font size */
+    font-family: 'Helvetica', sans-serif;  /* Set font family */
+    font-style: italic; /* Set font style to italic */
+    color:black;  /* Set text color */
+    text-align: center;  /* Center align text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Add text shadow for effect */
 }
