@@ -1,26 +1,26 @@
-// Event listener for fetching a random cocktail
+// Event listener for fetching a random cocktail.
 document.getElementById('fetchCocktailButton').addEventListener('click' , fetchCocktail);
 
-// Event listener for searching for a cocktail
+// Event listener for searching for a cocktail.
 document.getElementById('searchInput').addEventListener('input' , searchCocktail);
  
-// Function to fetch a random cocktail
+// Function to fetch a random cocktail.
 function fetchCocktail(){
     // Fetch a random cocktail from the API
     fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
     .then(response => response.json())
     .then(data => {
-        // Call the function to display the fetched cocktail
+        // Call the function to display the fetched cocktail.
         displayCocktail(data.drinks[0]);
     })
     .catch(error => console.error('Error fetch cocktail:' , error));
 }
 
-// Function to display a cocktail 
+// Function to display a cocktail .
 function displayCocktail(cocktail){
     const cocktailInfo = document.getElementById('cocktailInfo');
     
-    // Display the cocktail information in the HTML
+    // Display the cocktail information in the HTML.
   
     cocktailInfo.innerHTML = `
         <h2>${cocktail.strDrink}</h2>
@@ -29,7 +29,7 @@ function displayCocktail(cocktail){
     `;
 }
 
-// Function to search for a cocktail
+// Function to search for a cocktail.
 function searchCocktail(event){
     const searchTerm = event.target.value.toLowerCase();
     
