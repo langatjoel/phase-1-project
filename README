@@ -8,8 +8,12 @@ Welcome to Cocktail Extravaganza, a web application that allows you to explore a
 1.Fetch Random Cocktail: Click the "Get Random Cocktail" button to fetch a random cocktail recipe and learn how to make it.
 2.Search for Cocktails: Use the search bar to search for cocktails based on keywords. Enter the name or ingredients of the cocktail you're craving, and Cocktail Explorer will find it for you.
 3.Detailed Cocktail Information: Each cocktail recipe comes with detailed information, including its name, image, and instructions on how to prepare it.
-# Setup
-This program has similar setup to the one above in that i've included a html,css and JavaScript files.The HTML file has label elements that contains in put textboxes for.
+## Usage
+
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your web browser.
+3. Click the "Get a cocktail" button to fetch a random cocktail, or enter a keyword in the search input field to search for cocktails by name.
+
 ## Support and contact details
 github.com/langatjoel.
 ## License
