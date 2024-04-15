@@ -20,7 +20,8 @@
             <!-- Button to fetch a random cocktail-->
             <button id="fetchCocktailButton">Get a cocktail.</button>
             <!-- Input field for searching a cocktail -->
-            <input type="text" id="searchInput" placeholder="Vamos!">
+            <input type="text" id="searchInput" placeholder="Vamos!" oninput="searchCocktail(event)" onkeypress="if(event.key === 'Enter') searchCocktail(event)">
+        </div>
         </div>
         <!--Linking to Javascript file-->
         <script src="/src/index.js"></script>
