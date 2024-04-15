@@ -4,12 +4,7 @@ document.getElementById('fetchCocktailButton').addEventListener('click' , fetchC
 // Event listener for searching for a cocktail.
 document.getElementById('searchInput').addEventListener('input' , searchCocktail);
 
-// Event listener for searching for a cocktail when Enter key is pressed.
-document.getElementById('searchInput').addEventListener('keypress', function(event){
-    if (event.key === 'Enter'){
-        searchCocktail(event);
-    }
-});
+
  
 // Function to fetch a random cocktail.
 function fetchCocktail(){
