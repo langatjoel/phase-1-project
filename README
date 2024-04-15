@@ -9,9 +9,9 @@ Welcome to Cocktail Extravaganza, a web application that allows you to explore a
 2.Search for Cocktails: Use the search bar to search for cocktails based on keywords. Enter the name or ingredients of the cocktail you're craving, and Cocktail Explorer will find it for you.
 3.Detailed Cocktail Information: Each cocktail recipe comes with detailed information, including its name, image, and instructions on how to prepare it.
 # Setup
-This program has similar setup to the one above in that i've included a html,css and JavaScript files.The HTML file has label elements that contains in put textboxes for
+This program has similar setup to the one above in that i've included a html,css and JavaScript files.The HTML file has label elements that contains in put textboxes for.
 ## Support and contact details
-github.com/langatjoel
+github.com/langatjoel.
 ## License
 The content of this site is licensed under the MIT license Copyright (c) 2024.
 
