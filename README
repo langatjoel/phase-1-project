@@ -5,9 +5,9 @@
 # Description
 Welcome to Cocktail Extravaganza, a web application that allows you to explore a world of delightful cocktail recipes! Whether you're looking to discover new drinks or find a specific cocktail, Cocktail Extravaganza has got you covered.
 # Features
-Fetch Random Cocktail: Click the "Get Random Cocktail" button to fetch a random cocktail recipe and learn how to make it.
-Search for Cocktails: Use the search bar to search for cocktails based on keywords. Enter the name or ingredients of the cocktail you're craving, and Cocktail Explorer will find it for you.
-Detailed Cocktail Information: Each cocktail recipe comes with detailed information, including its name, image, and instructions on how to prepare it.
+1.Fetch Random Cocktail: Click the "Get Random Cocktail" button to fetch a random cocktail recipe and learn how to make it.
+2.Search for Cocktails: Use the search bar to search for cocktails based on keywords. Enter the name or ingredients of the cocktail you're craving, and Cocktail Explorer will find it for you.
+3.Detailed Cocktail Information: Each cocktail recipe comes with detailed information, including its name, image, and instructions on how to prepare it.
 # Setup
 This program has similar setup to the one above in that i've included a html,css and JavaScript files.The HTML file has label elements that contains in put textboxes for
 ## Support and contact details
